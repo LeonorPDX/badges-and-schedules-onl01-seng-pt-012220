@@ -18,30 +18,7 @@ def assign_rooms(speakers)
   room_assignments
 end
 
-def printer(array)
-  printer_list = []
+def printer(attendees)
   
-  def batch_badge_creator(array)
-    badge_messages = []
-    array.each do |name|
-     badge_messages << "Hello, my name is #{name}."
-    end
-    printer_list << badge_messages
-  end
-
-  
-  def assign_rooms(array)
-    room_assignments = []
-    room = 0
-    array.each do |name|
-     room +=1
-     room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
-    end
-    
-    printer_list << room_assignments
-    
-  end
-  
-  printer_list.each {|x| puts x}
   
 end
